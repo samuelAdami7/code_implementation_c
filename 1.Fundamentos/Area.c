@@ -11,7 +11,7 @@
 * - calcula o raio ao quadrado
 * - e deposi calcula a area do circulo 
 *
-* Data: 29/07/2026
+* Data: 09/10/2026
 * -------------------------------------------------------------------------
 */
 
