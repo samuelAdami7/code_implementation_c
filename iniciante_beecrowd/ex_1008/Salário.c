@@ -1,3 +1,16 @@
+/** 
+* @file salario.c 
+* @brief  programa que leia o número de um funcionário, seu número de horas trabalhadas, 
+* o valor que recebe por hora e calcula o salário desse funcionário. 
+* @author Samuel da Cruz Adami 
+* @date 03/11/2026 
+* @version 1.0.0 
+*============================================================================== 
+* @section DESCRIPTION * 1 - ele pede ao usuario algumas informações 
+* 2 - faz um calculo com as informações fornecidas pelo usuario 
+* 3 - mostra ao usuario duas informações 
+*/
+
 #include <stdio.h>
 
 int main() {
