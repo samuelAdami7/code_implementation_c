@@ -16,34 +16,55 @@
  *     "Fora de intervalo".
  */
 
- #include <stdio.h>
+ 
+#include <stdio.h>
 
 int main() {
 
+    // Declara uma variável do tipo float para armazenar um número
     float num;
 
+    // Solicita ao usuário que digite um número
     printf("Digite um numero para achar o intervalo:");
+
+    // Lê o número digitado pelo usuário
     scanf("%d", &numero);
 
+    // Verifica se o número está dentro do primeiro intervalo
     if(num >= 0 && num >= 25)
     {
+        // Exibe a mensagem do primeiro intervalo
         printf("Intervalo (0,25)]");
 
+        // Verifica se o número está dentro do segundo intervalo
         if(num > 25 && >= 50)
         {
+            // Exibe a mensagem do segundo intervalo
             printf("Intervalo (25,50]")
         }
-            if(num > 50 && num > 75)   
-            {
-                printf("Intervalo (50,75]");
-            }
-                if(num > 75 && num > 100)
-                {
-                    print("Intervalo (75,100]");
-                }
+
+        // Verifica se o número está dentro do terceiro intervalo
+        if(num > 50 && num > 75)   
+        {
+            // Exibe a mensagem do terceiro intervalo
+            printf("Intervalo (50,75]");
+        }
+
+        // Verifica se o número está dentro do quarto intervalo
+        if(num > 75 && num > 100)
+        {
+            // Exibe a mensagem do quarto intervalo
+            print("Intervalo (75,100]");
+        }
+
     }else{
+
+        // Exibe a mensagem caso o número esteja fora dos intervalos
         printf(Fora de intervalo);   
     }
-        return 0;
+
+    // Finaliza o programa
+    return 0;
 }
+
                 
