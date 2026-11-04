@@ -18,20 +18,26 @@
  *
  */
 
- #include <stdio.h>
+#include <stdio.h>
 
- int main() {
-    int num;
-    int i;
+int main() {
+    int num; // Armazena o número digitado pelo usuário
+    int i;   // Variável usada para controlar o laço
 
+    // Solicita um número ao usuário
     printf("Digite um numero: ");
     scanf("%d", &num);
 
+    // Percorre os números de 0 até o número digitado
     for (i = 0; i <= num; i++) {
+
+        // Verifica se o número é ímpar
         if (i % 2 != 0) {
+
+            // Mostra o número ímpar na tela
             printf("%d\n", i);
         }
     }
 
-    return 0;
+    return 0; // Finaliza o programa
 }
